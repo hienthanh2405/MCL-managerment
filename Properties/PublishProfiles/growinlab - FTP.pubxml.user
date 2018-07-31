@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEX3jOshgX0mPIPcgAajvXQAAAAACAAAAAAAQZgAAAAEAACAAAACI6Z8iBbtvaYTSUdkjOe8KByhPxk4+ulmhxJ8hPEhCLQAAAAAOgAAAAAIAACAAAADAwPblD9BzTirV35LMsCfoVnZd3jJXJT237vSg00ES9YAAAAB9e8n5pokjvkMtgG5pBWfnyHpAVGPqy8rwGSki0wLqVP1yd0FSb6nNa8bFA+dDrlFlXNcoFsnHVyUL6f5HD/hVPCxUJfgjHHY3i9D+RUdhmBXZ+boKtviJ5DSZU3qO6pkMikaEipCBSFFq4ZrxFE7M8gAgcXrCZDv2mS15ethrZUAAAACsXUDEfj22iVCxbhP1fuvWUy1A0k5vUWB1di+bF8P3OZKbcqXanPZIgEq612CLEHVcGNEwJuQ2kT0zyCE4wQn4</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-sg1-009.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="API.deps.json">
+      <publishTime>07/21/2018 14:12:05</publishTime>
+    </File>
+    <File Include="API.dll">
+      <publishTime>07/21/2018 13:57:46</publishTime>
+    </File>
+    <File Include="API.pdb">
+      <publishTime>07/21/2018 14:11:58</publishTime>
+    </File>
+    <File Include="API.runtimeconfig.json">
+      <publishTime>07/21/2018 14:12:05</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>07/14/2018 12:29:48</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/08/2018 15:39:10</publishTime>
+    </File>
+    <File Include="appsettings.Production.json">
+      <publishTime>07/21/2018 13:55:32</publishTime>
+    </File>
+    <File Include="appsettings.Staging.json">
+      <publishTime>06/08/2018 15:39:10</publishTime>
+    </File>
+    <File Include="appsettings.Test.json">
+      <publishTime>07/14/2018 11:28:37</publishTime>
+    </File>
+    <File Include="AspNet.Security.OAuth.Validation.dll">
+      <publishTime>05/07/2017 08:20:28</publishTime>
+    </File>
+    <File Include="AspNet.Security.OpenIdConnect.Extensions.dll">
+      <publishTime>10/16/2017 06:23:02</publishTime>
+    </File>
+    <File Include="AspNet.Security.OpenIdConnect.Primitives.dll">
+      <publishTime>10/16/2017 06:23:02</publishTime>
+    </File>
+    <File Include="AspNet.Security.OpenIdConnect.Server.dll">
+      <publishTime>10/16/2017 06:23:04</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>06/26/2017 20:07:14</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>03/30/2017 07:15:46</publishTime>
+    </File>
+    <File Include="CryptoHelper.dll">
+      <publishTime>06/28/2016 10:25:00</publishTime>
+    </File>
+    <File Include="Microsoft.ApplicationInsights.AspNetCore.dll">
+      <publishTime>01/20/2017 16:27:44</publishTime>
+    </File>
+    <File Include="Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Antiforgery.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.Cookies.dll">
+      <publishTime>09/08/2017 22:02:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.dll">
+      <publishTime>09/08/2017 22:02:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authorization.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cors.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.DataProtection.Abstractions.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.DataProtection.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Diagnostics.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Diagnostics.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Hosting.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Html.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.HttpOverrides.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Localization.dll">
+      <publishTime>04/27/2017 18:53:24</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ApiExplorer.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Cors.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.DataAnnotations.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Formatters.Json.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Localization.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.Host.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.TagHelpers.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.ViewFeatures.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Runtime.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Routing.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Routing.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.IISIntegration.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Server.Kestrel.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>04/28/2017 12:19:24</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Design.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.InMemory.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.Design.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>09/08/2017 22:02:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.EnvironmentVariables.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.FileExtensions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Json.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>04/28/2017 12:19:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DiagnosticAdapter.dll">
+      <publishTime>06/22/2016 09:14:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Composite.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Physical.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileSystemGlobbing.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Globalization.CultureInfoCache.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Localization.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Localization.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Console.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Debug.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.ObjectPool.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.ConfigurationExtensions.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.PlatformAbstractions.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.WebEncoders.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/14/2016 21:05:22</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/14/2016 21:04:34</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/14/2016 21:04:50</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/14/2016 21:04:58</publishTime>
+    </File>
+    <File Include="Microsoft.Net.Http.Headers.dll">
+      <publishTime>04/27/2017 18:53:26</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="OpenIddict.Core.dll">
+      <publishTime>10/20/2017 10:29:18</publishTime>
+    </File>
+    <File Include="OpenIddict.dll">
+      <publishTime>10/20/2017 10:29:18</publishTime>
+    </File>
+    <File Include="OpenIddict.EntityFrameworkCore.dll">
+      <publishTime>10/20/2017 10:29:18</publishTime>
+    </File>
+    <File Include="OpenIddict.Models.dll">
+      <publishTime>10/20/2017 10:29:18</publishTime>
+    </File>
+    <File Include="OpenIddict.Mvc.dll">
+      <publishTime>10/20/2017 10:29:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/13/2016 05:31:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/13/2016 05:31:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.CSharp.dll">
+      <publishTime>02/28/2018 14:26:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.VisualBasic.dll">
+      <publishTime>11/05/2016 04:55:32</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Win32.Primitives.dll">
+      <publishTime>02/28/2018 14:26:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Win32.Registry.dll">
+      <publishTime>11/05/2016 04:55:34</publishTime>
+    </File>
+    <File Include="refs/System.AppContext.dll">
+      <publishTime>02/28/2018 14:26:40</publishTime>
+    </File>
+    <File Include="refs/System.Buffers.dll">
+      <publishTime>02/28/2018 14:26:40</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Concurrent.dll">
+      <publishTime>02/28/2018 14:26:52</publishTime>
+    </File>
+    <File Include="refs/System.Collections.dll">
+      <publishTime>02/28/2018 14:26:44</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Immutable.dll">
+      <publishTime>02/28/2018 14:26:54</publishTime>
+    </File>
+    <File Include="refs/System.Collections.NonGeneric.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Specialized.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.Annotations.dll">
+      <publishTime>11/05/2016 04:55:40</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.Primitives.dll">
+      <publishTime>02/28/2018 14:27:00</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.TypeConverter.dll">
+      <publishTime>02/28/2018 14:27:02</publishTime>
+    </File>
+    <File Include="refs/System.Console.dll">
+      <publishTime>02/28/2018 14:27:02</publishTime>
+    </File>
+    <File Include="refs/System.Data.Common.dll">
+      <publishTime>11/05/2016 04:55:50</publishTime>
+    </File>
+    <File Include="refs/System.Data.SqlClient.dll">
+      <publishTime>04/19/2017 16:58:56</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Contracts.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Debug.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>04/19/2017 16:58:52</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Process.dll">
+      <publishTime>11/05/2016 04:55:58</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.StackTrace.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Tools.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Tracing.dll">
+      <publishTime>02/28/2018 14:26:28</publishTime>
+    </File>
+    <File Include="refs/System.Dynamic.Runtime.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.Calendars.dll">
+      <publishTime>02/28/2018 14:26:40</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.dll">
+      <publishTime>02/28/2018 14:26:38</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.Extensions.dll">
+      <publishTime>02/28/2018 14:26:40</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.dll">
+      <publishTime>02/28/2018 14:26:18</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.ZipFile.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="refs/System.IO.dll">
+      <publishTime>02/28/2018 14:26:44</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.Primitives.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.Watcher.dll">
+      <publishTime>11/05/2016 04:56:10</publishTime>
+    </File>
+    <File Include="refs/System.IO.MemoryMappedFiles.dll">
+      <publishTime>11/05/2016 04:56:14</publishTime>
+    </File>
+    <File Include="refs/System.IO.UnmanagedMemoryStream.dll">
+      <publishTime>11/05/2016 04:56:14</publishTime>
+    </File>
+    <File Include="refs/System.Linq.dll">
+      <publishTime>02/28/2018 14:26:24</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Expressions.dll">
+      <publishTime>02/28/2018 14:26:38</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Parallel.dll">
+      <publishTime>02/28/2018 14:26:48</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Queryable.dll">
+      <publishTime>11/05/2016 04:56:18</publishTime>
+    </File>
+    <File Include="refs/System.Net.Http.dll">
+      <publishTime>04/19/2017 16:58:56</publishTime>
+    </File>
+    <File Include="refs/System.Net.NameResolution.dll">
+      <publishTime>02/28/2018 14:27:00</publishTime>
+    </File>
+    <File Include="refs/System.Net.Primitives.dll">
+      <publishTime>02/28/2018 14:27:04</publishTime>
+    </File>
+    <File Include="refs/System.Net.Requests.dll">
+      <publishTime>11/05/2016 04:56:32</publishTime>
+    </File>
+    <File Include="refs/System.Net.Security.dll">
+      <publishTime>04/19/2017 16:58:54</publishTime>
+    </File>
+    <File Include="refs/System.Net.Sockets.dll">
+      <publishTime>02/28/2018 14:27:06</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebHeaderCollection.dll">
+      <publishTime>11/05/2016 04:56:30</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebSockets.dll">
+      <publishTime>11/05/2016 04:56:34</publishTime>
+    </File>
+    <File Include="refs/System.Numerics.Vectors.dll">
+      <publishTime>11/05/2016 04:56:36</publishTime>
+    </File>
+    <File Include="refs/System.ObjectModel.dll">
+      <publishTime>02/28/2018 14:27:08</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.DispatchProxy.dll">
+      <publishTime>11/05/2016 04:56:42</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.dll">
+      <publishTime>02/28/2018 14:26:24</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.ILGeneration.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.Lightweight.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Extensions.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Metadata.dll">
+      <publishTime>02/28/2018 14:26:28</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Primitives.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.TypeExtensions.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Resources.Reader.dll">
+      <publishTime>11/05/2016 04:56:46</publishTime>
+    </File>
+    <File Include="refs/System.Resources.ResourceManager.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.dll">
+      <publishTime>02/28/2018 14:26:54</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Extensions.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Handles.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.InteropServices.dll">
+      <publishTime>02/28/2018 14:27:00</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>02/28/2018 14:27:02</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Loader.dll">
+      <publishTime>11/05/2016 04:57:00</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Numerics.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.Primitives.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Security.Claims.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Cng.dll">
+      <publishTime>02/28/2018 14:26:28</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Csp.dll">
+      <publishTime>02/28/2018 14:26:28</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Encoding.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Primitives.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="refs/System.Security.Principal.dll">
+      <publishTime>02/28/2018 14:26:34</publishTime>
+    </File>
+    <File Include="refs/System.Security.Principal.Windows.dll">
+      <publishTime>02/28/2018 14:26:34</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encoding.dll">
+      <publishTime>02/28/2018 14:26:40</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encoding.Extensions.dll">
+      <publishTime>02/28/2018 14:26:48</publishTime>
+    </File>
+    <File Include="refs/System.Text.RegularExpressions.dll">
+      <publishTime>02/28/2018 14:26:54</publishTime>
+    </File>
+    <File Include="refs/System.Threading.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Dataflow.dll">
+      <publishTime>11/05/2016 04:57:20</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.dll">
+      <publishTime>02/28/2018 14:27:06</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Extensions.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Parallel.dll">
+      <publishTime>02/28/2018 14:26:20</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Thread.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Threading.ThreadPool.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Timer.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="refs/System.Xml.ReaderWriter.dll">
+      <publishTime>02/28/2018 14:26:28</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XDocument.dll">
+      <publishTime>02/28/2018 14:26:38</publishTime>
+    </File>
+    <File Include="Remotion.Linq.dll">
+      <publishTime>02/28/2018 14:26:30</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll">
+      <publishTime>04/19/2017 16:58:56</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll">
+      <publishTime>11/05/2016 04:56:16</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll">
+      <publishTime>02/28/2018 14:26:42</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll">
+      <publishTime>04/19/2017 16:58:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard1.3/System.IO.Pipes.dll">
+      <publishTime>11/05/2016 04:56:16</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll">
+      <publishTime>02/28/2018 14:26:42</publishTime>
+    </File>
+    <File Include="runtimes/win7-x64/native/sni.dll">
+      <publishTime>10/27/2016 20:38:18</publishTime>
+    </File>
+    <File Include="runtimes/win7-x86/native/sni.dll">
+      <publishTime>10/27/2016 20:39:14</publishTime>
+    </File>
+    <File Include="System.Collections.NonGeneric.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="System.Collections.Specialized.dll">
+      <publishTime>02/28/2018 14:26:58</publishTime>
+    </File>
+    <File Include="System.ComponentModel.Primitives.dll">
+      <publishTime>02/28/2018 14:27:00</publishTime>
+    </File>
+    <File Include="System.ComponentModel.TypeConverter.dll">
+      <publishTime>02/28/2018 14:27:02</publishTime>
+    </File>
+    <File Include="System.Data.Common.dll">
+      <publishTime>11/05/2016 04:55:50</publishTime>
+    </File>
+    <File Include="System.Diagnostics.Contracts.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="System.Diagnostics.StackTrace.dll">
+      <publishTime>02/28/2018 14:26:26</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/14/2016 21:05:06</publishTime>
+    </File>
+    <File Include="System.Interactive.Async.dll">
+      <publishTime>06/21/2016 21:47:14</publishTime>
+    </File>
+    <File Include="System.Net.WebSockets.dll">
+      <publishTime>11/05/2016 04:56:34</publishTime>
+    </File>
+    <File Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>11/05/2016 04:56:46</publishTime>
+    </File>
+    <File Include="System.Runtime.Serialization.Primitives.dll">
+      <publishTime>02/28/2018 14:26:22</publishTime>
+    </File>
+    <File Include="System.Text.Encodings.Web.dll">
+      <publishTime>02/28/2018 14:26:52</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/21/2018 14:12:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
